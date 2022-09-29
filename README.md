@@ -1,13 +1,3 @@
-# LiDAR-Bonnetal
-
-Semantic Segmentation of point clouds using range images.
-
-Developed by [Andres Milioto](http://www.ipb.uni-bonn.de/people/andres-milioto/), [Jens Behley](http://www.ipb.uni-bonn.de/people/jens-behley/), [Ignacio Vizzo](http://www.ipb.uni-bonn.de/people/ignacio-vizzo/), and [Cyrill Stachniss](http://www.ipb.uni-bonn.de/people/cyrill-stachniss/)
-
-_Examples of segmentation results from [SemanticKITTI](http://semantic-kitti.org) dataset:_
-![ptcl](pics/semantic-ptcl.gif)
-![ptcl](pics/semantic-proj.gif)
-
 ## Description
 
 This code provides code to train and deploy Semantic Segmentation of LiDAR scans, using range images as intermediate representation. The training pipeline can be found in [/train](train/). We will open-source the deployment pipeline soon.
